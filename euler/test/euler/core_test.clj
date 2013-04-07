@@ -2,6 +2,6 @@
   (:use clojure.test
         euler.core))
 
-(deftest a-test
+(deftest test-problem-001
   (testing "Problem 001 - Add all natural numbers < 1000 that are divisible by 3 or 5"
     (is (= 166833 (problem-001)))))
