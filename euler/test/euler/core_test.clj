@@ -3,5 +3,5 @@
         euler.core))
 
 (deftest a-test
-  (testing "FIXME, I fail."
-    (is (= 0 1))))
+  (testing "Problem 001 - Add all natural numbers < 1000 that are divisible by 3 or 5"
+    (is (= 166833 (problem-001)))))
